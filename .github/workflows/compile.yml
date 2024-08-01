@@ -1,10 +1,7 @@
-name: compilation
+name: compilation and deploy
 
 on:
   push:
-    branches:
-      - production
-  pull_request:
     branches:
       - production
 
@@ -26,5 +23,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Python script
+    - name: Page compilation
       run: python compile.py
+
+    - name: Deploy to GitHub Pages
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./compiled
