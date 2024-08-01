@@ -1,4 +1,5 @@
 import markdown
+import os
 
 """ This is a simple python script that "compiles" the markdown to html
 """
