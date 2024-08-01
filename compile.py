@@ -20,5 +20,6 @@ with open('template/index.template.html', 'r') as f:
 html_page = template.replace('{{ problem }}', problem).replace('{{ solution }}', solution).replace('{{ architecture }}', arch).replace('{{ team }}', team)
 
 # Write the final HTML to a file
-with open('index.html', 'w') as f:
+with open('./index.html', 'w') as f:
     f.write(html_page)
+    print(html_page)
