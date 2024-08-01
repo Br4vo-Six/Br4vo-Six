@@ -1,5 +1,4 @@
 import markdown
-import os
 
 """ This is a simple python script that "compiles" the markdown to html
 """
@@ -21,8 +20,5 @@ with open('template/index.template.html', 'r') as f:
 html_page = template.replace('{{ problem }}', problem).replace('{{ solution }}', solution).replace('{{ architecture }}', arch).replace('{{ team }}', team)
 
 # Write the final HTML to a file
-bundlepath = "./compiled"
-if not os.path.exists(bundlepath):
-    os.makedirs(bundlepath)
-with open('./compiled/index.html', 'w') as f:
+with open('index.html', 'w') as f:
     f.write(html_page)
