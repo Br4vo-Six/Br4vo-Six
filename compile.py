@@ -3,13 +3,13 @@ import markdown
 """ This is a simple python script that "compiles" the markdown to html
 """
 
-with open('problem.md', 'r') as f:
+with open('content/problem.md', 'r') as f:
     problem = markdown.markdown(f.read())
-with open('solution.md', 'r') as f:
+with open('content/solution.md', 'r') as f:
     solution = markdown.markdown(f.read())
-with open('architecture.md', 'r') as f:
+with open('content/architecture.md', 'r') as f:
     arch = markdown.markdown(f.read())
-with open('team.md', 'r') as f:
+with open('content/team.md', 'r') as f:
     team = markdown.markdown(f.read())
 # Convert markdown to HTML
 html_content = markdown.markdown(text)
