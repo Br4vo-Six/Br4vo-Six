@@ -11,8 +11,6 @@ with open('content/architecture.md', 'r') as f:
     arch = markdown.markdown(f.read())
 with open('content/team.md', 'r') as f:
     team = markdown.markdown(f.read())
-# Convert markdown to HTML
-html_content = markdown.markdown(text)
 
 # Read the HTML template
 with open('template/index.template.html', 'r') as f:
