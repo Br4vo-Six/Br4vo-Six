@@ -22,4 +22,4 @@ html_page = template.replace('{{ problem }}', problem).replace('{{ solution }}',
 # Write the final HTML to a file
 with open('./index.html', 'w') as f:
     f.write(html_page)
-    print(html_page)
+#    print(html_page)
