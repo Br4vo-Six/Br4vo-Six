@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #2254c5, white 5%, white 95%, #2254c5);
+    height: 200vh; /* Making the body taller to enable scrolling */
+}
+
+h2 {
+    color: #000077;
+}
+.container {
+    width: 90%; /* 100% - 2*5% margin */
+    margin: 0 auto; /* center the container */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex: 1 1 50%; /* Each section will take up 50% of the container width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background: white;
+}
+
+#first-section {
+    margin-top: 5vh;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
