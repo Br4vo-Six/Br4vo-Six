@@ -1,7 +1,9 @@
 ## Our team
-Our team consists of 4 members which is the following:
+Our team consists of 4 members with the following role:
 
-1. Adrian Naufal Riadi [Leader, Backend Engineer]
-2. Seno Pamungkas Rahman [Frontend engineer, UI/UX Engineer]
-3. Waffiq Maaroja [AI Researcher and Developer]
-4. Victor Hugo Cahyo [Devops Engineer]
+| Name | Role | Affiliation |
+|-|-|-|
+| Adrian Naufal Riadi | Leader, Backend Engineer  | Master Student at Universitas Gajah Mada |
+| Seno Pamungkas Rahman | Frontend engineer, UI/UX Engineer  | Barchelor Student at Universitas Indonesia |
+| Waffiq Maaroja | AI Researcher and Developer | Master Student at Universitas Gajah Mada |
+| Victor Hugo Cahyo | DevOps Engineer | Master Student at National Formossa University (國立虎尾科技大學) |

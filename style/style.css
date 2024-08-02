@@ -30,15 +30,15 @@ h2 {
 }
 
 .section {
-    /*flex: 1 1 50%*/
-     /* Each section will take up 50% of the container width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    flex: 1 1 50%;
+    box-sizing: border-box;
     padding: 20px;
     margin-bottom: 20px;
     border: none;
     background: white;
     display: flex;
     flex-direction: column;
+    min-width: 350px;
     /*align-items: center;*/
 }
 img {
@@ -58,4 +58,16 @@ img {
 }
 .section ol {
     padding-left: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #000;
 }
