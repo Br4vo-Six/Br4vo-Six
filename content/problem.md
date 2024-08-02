@@ -2,7 +2,7 @@
 Cryptocurrency is a widely used currency used in modern days for the purpose of wealth or asset transfer between individuals due to the following properties:
 
 1. No central point of failure
-2. Transparentcy
+2. Transparency
 3. Global borderless transaction
 4. Anonymity of both sender and receiver
 
