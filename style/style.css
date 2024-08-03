@@ -71,3 +71,20 @@ th, td {
 tr {
     border-bottom: 1px solid #000;
 }
+
+.inputBoxContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#inputBox {
+    width:60%;
+}
+#resetButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 10px;
+}
