@@ -50,7 +50,7 @@
       }
 
       async function submitText() {
-          const textBox = document.getElementById('inputBox').value;
+          const textBox = document.getElementById('inputBox').value.trim();
           const resultText = document.getElementById('resultText');
           console.log(`initiating fetch to ${textBox}`)
           try {
